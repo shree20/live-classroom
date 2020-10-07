@@ -7,7 +7,7 @@ mongoose.connect(process.env.MONGODB_URL, {
     useFindAndModify: false
 })
 
-// mongoose.connect("mongodb://127.0.0.1:27017/live-classroom", {
+// mongoose.connect("mongodb+srv://taskapp:Password123@cluster0.vx4iu.mongodb.net/live-classroom?retryWrites=true", {
 //     useNewUrlParser: true,
 //     useCreateIndex: true,
 //     useFindAndModify: false
